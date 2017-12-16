@@ -4,12 +4,12 @@
     @include('layouts.library.header')
 @endsection
 
-@section('contend')
+@section('content')
     <section class="main-section" id="service">
         <!--main-section-start-->
         <div class="container">
             <h2>Services</h2>
-            <h6>We offer exceptional service with complimentary hugs.</h6>
+            <h6>We offer to you innovative environment.</h6>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
                     <div class="service-list">
@@ -17,26 +17,10 @@
                             <i class="fa-paw"></i>
                         </div>
                         <div class="service-list-col2">
-                            <h3>branding &amp; identity</h3>
-                            <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
-                        </div>
-                    </div>
-                    <div class="service-list">
-                        <div class="service-list-col1">
-                            <i class="fa-gear"></i>
-                        </div>
-                        <div class="service-list-col2">
-                            <h3>web development</h3>
-                            <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                        </div>
-                    </div>
-                    <div class="service-list">
-                        <div class="service-list-col1">
-                            <i class="fa-apple"></i>
-                        </div>
-                        <div class="service-list-col2">
-                            <h3>mobile design</h3>
-                            <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+                            <h3>Costume design</h3>
+                            <p>
+                                We provide the environment for you to freely design the outfit for yourself.
+                            </p>
                         </div>
                     </div>
                     <div class="service-list">
@@ -57,60 +41,17 @@
         </div>
     </section>
     <!--main-section-end-->
-    <section class="main-section alabaster">
-        <!--main-section alabaster-start-->
-        <div class="container">
-            <div class="row">
-                <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-                    <img src="img/iphone.png" alt="">
-                </figure>
-                <div class="col-lg-7 col-sm-8 featured-work">
-                    <h2>featured work</h2>
-                    <P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-02s">
-                            <i class="fa-magic"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-02s">
-                            <h3>magic of theme development</h3>
-                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-                        </div>
-                    </div>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-04s">
-                            <i class="fa-gift"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-04s">
-                            <h3>neatly packaged</h3>
-                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-                        </div>
-                    </div>
-                    <div class="featured-box">
-                        <div class="featured-box-col1 wow fadeInRight delay-06s">
-                            <i class="fa-dashboard"></i>
-                        </div>
-                        <div class="featured-box-col2 wow fadeInRight delay-06s">
-                            <h3>SEO optimized</h3>
-                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-                        </div>
-                    </div>
-                    <a class="Learn-More" href="#">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--main-section alabaster-end-->
     <section class="main-section paddind" id="Portfolio">
         <!--main-section-start-->
         <div class="container">
-            <h2>Portfolio</h2>
-            <h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+            <h2>Topic</h2>
+            <h6>Topics so that you can design them.</h6>
             <div class="portfolioFilter">
                 <ul class="Portfolio-nav wow fadeIn delay-02s">
                     <li><a href="#" data-filter="*" class="current">All</a></li>
-                    <li><a href="#" data-filter=".branding">Branding</a></li>
-                    <li><a href="#" data-filter=".webdesign">Web design</a></li>
-                    <li><a href="#" data-filter=".printdesign">Print design</a></li>
+                    <li><a href="#" data-filter=".branding">New</a></li>
+                    <li><a href="#" data-filter=".webdesign">Hot</a></li>
+                    <li><a href="#" data-filter=".printdesign">Most Design</a></li>
                     <li><a href="#" data-filter=".photography">Photography</a></li>
                 </ul>
             </div>
@@ -169,24 +110,11 @@
         </div>
     </section>
     <!--main-section client-part-end-->
-    <div class="c-logo-part">
-        <!--c-logo-part-start-->
-        <div class="container">
-            <ul>
-                <li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-                <li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
-    <!--c-logo-part-end-->
     <section class="main-section team" id="team">
         <!--main-section team-start-->
         <div class="container">
-            <h2>team</h2>
-            <h6>Take a closer look into our amazing team. We won’t bite.</h6>
+            <h2>Stylist</h2>
+            <h6>The most professional stylists.</h6>
             <div class="team-leader-block clearfix">
                 <div class="team-leader-box">
                     <div class="team-leader wow fadeInDown delay-03s">
@@ -195,7 +123,6 @@
                         <ul>
                             <li><a href="#" class="fa-twitter"></a></li>
                             <li><a href="#" class="fa-facebook"></a></li>
-                            <li><a href="#" class="fa-pinterest"></a></li>
                             <li><a href="#" class="fa-google-plus"></a></li>
                         </ul>
                     </div>
@@ -210,7 +137,6 @@
                         <ul>
                             <li><a href="#" class="fa-twitter"></a></li>
                             <li><a href="#" class="fa-facebook"></a></li>
-                            <li><a href="#" class="fa-pinterest"></a></li>
                             <li><a href="#" class="fa-google-plus"></a></li>
                         </ul>
                     </div>
@@ -225,7 +151,6 @@
                         <ul>
                             <li><a href="#" class="fa-twitter"></a></li>
                             <li><a href="#" class="fa-facebook"></a></li>
-                            <li><a href="#" class="fa-pinterest"></a></li>
                             <li><a href="#" class="fa-google-plus"></a></li>
                         </ul>
                     </div>
@@ -240,8 +165,12 @@
     <section class="business-talking">
         <!--business-talking-start-->
         <div class="container">
-            <h2>Let’s Talk Business.</h2>
+            <h2>Let's become a professional stylist</h2>
         </div>
     </section>
     <!--business-talking-end-->
+@endsection
+
+@section('footer-contact')
+    @include('layouts.library.footer-contact')
 @endsection

@@ -17,6 +17,7 @@
     {{ Html::style('bower_components/animate.css/animate.css') }}
     {{ Html::style('css/responsive.css') }}
     {{ Html::style('css/style.css') }}
+    {{ Html::style('css/customer.css') }}
     @yield('css-customer')
 
 </head>
@@ -24,9 +25,10 @@
 <body>
     @yield('header')
         @include('layouts.library.header-nav')
-    @yield('contend')
-        @include('layouts.library.footer-contact')
-    @yield('footer')
+    @yield('content')
+
+    @yield('footer-contact')
+        @include('layouts.library.footer')
 </body>
     {{ Html::script('bower_components/jquery/dist/jquery.js') }}
     {{ Html::script('bower_components/jquery/dist/jquery.min.js') }}
