@@ -1,0 +1,35 @@
+{
+  "name": "fashion design",
+  "description": "fashion deign",
+  "main": "index.html",
+  "authors": [
+    "HoangDuy <hoangduyib96@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fashion"
+  ],
+  "homepage": "https://github.com/HoangManhDuy/fashion_version_2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "animate.css": "^3.5.2",
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "wow": "WOW#^1.1.2",
+    "ScrollToFixed": "^1.0.8",
+    "isotope": "^3.0.4",
+    "html5shiv": "^3.7.3",
+    "respond": "Respond#^1.4.2",
+    "classie": "^1.0.1",
+    "jquery.easing": "^1.3.1"
+  }
+}
