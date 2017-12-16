@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('sites.home');
-});
+Auth::routes();
+
+Route::get('/', 'HomeController@home')->name('home');
+
+Route::get('/home', 'HomeController@index');

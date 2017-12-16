@@ -75,4 +75,10 @@ $(window).on('load', function () {
         return false;
     });
 
+    $(document).ready(function () {
+        $('#logout-1').on('click', function () {
+            $('#logout-form').submit();
+        });
+    });
+
 });

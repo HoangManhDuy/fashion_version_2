@@ -2,3 +2,20 @@
 .main-nav-outer > .container {
     width: 100%;
 }
+
+#logout-1 {
+    display: inline-block;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    margin: 17px 32px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#logout-1:hover {
+    text-decoration: none;
+    color: #7cc576;
+    cursor:pointer;
+}
